@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url("book bg.jpeg");
+            background-size: cover;
+            text-align: center;
+            margin-top: 150px;
+            font-family: Arial;
+        }
+
+        form {
+            background: white;
+            width: 250px;
+            margin: auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Login Page</h2>
+
+    <form action="web.html">
+        <input type="text" placeholder="Username" required><br><br>
+        <input type="password" placeholder="Password" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>
