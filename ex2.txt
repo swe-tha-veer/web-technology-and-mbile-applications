@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Review Website</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+        p {
+            color: darkgreen;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+<body bgcolor="#9A7B4D">
+<center>
+    <font face ="Old English Text MT" size = "10">online Book Review Website</font>
+</center>
+
+<table width="100%" height="300">
+    <tr>
+        <td width="33%">
+            <img src="C:\Users\SONY\Documents\web tech project\img 1.jpg" width="100%" height="300">
+        </td>
+        <td width="33%">
+            <img src="C:\Users\SONY\Documents\web tech project\book genre.png"
+                 alt="genre"
+                 usemap="#bookmap"
+                 width="100%"
+                 height="300">
+
+            <map name="bookmap">
+                <area shape="rect"
+                      coords="0,0,600,70"
+                      href="https://en.wikipedia.org/wiki/Romance"
+                      alt="romance">
+
+                <area shape="rect"
+                      coords="0,70,600,140"
+                      href="https://en.wikipedia.org/wiki/Thriller_(genre)"
+                      alt="thriller">
+
+                <area shape="rect"
+                      coords="0,140,600,210"
+                      href="https://en.wikipedia.org/wiki/Fantasy"
+                      alt="fantasy">
+
+                <area shape="rect"
+                      coords="0,210,600,300"
+                      href="https://en.wikipedia.org/wiki/Science_fiction"
+                      alt="science fiction">
+
+                <area shape="rect"
+                      coords="0,300,600,400"
+                      href="https://en.wikipedia.org/wiki/Mystery_fiction"
+                      alt="mystery">
+            </map>
+        </td>
+        <td width="33%">
+            <img src="C:\Users\SONY\Documents\web tech project\img 3.jpg" width="100%" height="300">
+        </td>
+
+    </tr>
+</table>
+<center>
+  <h3> A Genre is the framework that guides a story's tone , emotions and direction. </h3>
+</center>
+      
+<table>
+    <tr>
+        <td>
+            <img src="C:\Users\SONY\Documents\web tech project\romance.jpg" width="180" height="180"><br>
+            <font face = "Oswald" size="6">ROMANCE</font><br>
+            <font face = "Chiller" size="5"> A story wherre love changes everything</font>
+             <h3> Rating= 5/5 </h3>
+        </td>
+        <td>
+            <img src="C:\Users\SONY\Documents\web tech project\thriller.jpg" width="180" height="180"><br>
+             <font face = "Oswald" size="6">THRILLER</font><br>
+            <font face = "Chiller" size="5"> Every page tightens the grip of suspense</font>
+            <h3> Rating = 5/5 </h3>
+        </td>
+        <td>
+            <img src="C:\Users\SONY\Documents\web tech project\fariytale.jpg" width="180" height="180"><br>
+              <font face = "Oswald" size="6">FANTASY</font><br>
+             <font face = "Chiller" size="5"> Timeless, comforting and loved across ages</font>
+             <h3> Rating = 4/5 </h3>
+        </td>
+        <td>
+             <img src="C:\Users\SONY\Documents\web tech project\science.jpg" width="180" height="180"><br>
+             <font face = "Oswald" size="6">SCIENCE FICTION</font><br>
+             <font face ="Chiller" size="5"> Highly imaginative , though sometimes complex</font>
+             <h3> Rating = 5/5 </h3> 
+        </td>
+        <td>
+            <img src="C:\Users\SONY\Documents\web tech project\horror.jpg" width="180" height="180"><br>
+             <font face = "Oswald" size="6">HORROR</font><br>
+            <font face = "Chiller" size= "5"> Powerful when done right, but niche for some viewers</font>
+            <h3> Rating = 4/5 </h3>
+        </td>
+    </tr>
+</table>
+<h4 align="right">
+     <i> Designed by: <b>Swetha Veeramani</b></i>
+</h4>
+<p alogn ="left">
+     <i> Copyright bu: <b>Swetha Veeramani</b></i>
+</p>
+    
+</body>
+</html>
+
